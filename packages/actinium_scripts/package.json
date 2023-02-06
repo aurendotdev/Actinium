@@ -1,0 +1,24 @@
+{
+  "name": "@actinium/scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/node": "^18.11.19",
+    "enquirer": "^2.3.6",
+    "esbuild": "^0.17.5",
+    "rollup": "^3.14.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2"
+  }
+}
